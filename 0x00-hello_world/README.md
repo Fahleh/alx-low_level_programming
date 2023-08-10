@@ -35,8 +35,11 @@ The code above is a C program that prints the size of various types on the compu
 gcc -S -masm=intel "$CFILE": Generates the assembly code (Intel syntax) of a C code and save it in an output file.
 
 int main(void)
-{       
-        write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+{
+        char *str = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+        while (*str)
+                write(STDERR_FILENO, str++, 1);
         return (1);
 }
 

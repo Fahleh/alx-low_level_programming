@@ -8,6 +8,9 @@
 
 int main(void)
 {
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	char *str = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	while (*str)
+		write(STDERR_FILENO, str++, 1);
 	return (1);
 }
