@@ -32,4 +32,13 @@ int main(void)
 
 The code above is a C program that prints the size of various types on the computer it is compiled and run on.
 
-gcc -S -masm=intel "$CFILE": Generates the assembly code (Intel syntax) of a C code and save it in an output file.  
+gcc -S -masm=intel "$CFILE": Generates the assembly code (Intel syntax) of a C code and save it in an output file.
+
+int main(void)
+{       
+        write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+        
+        return (1);
+}
+
+The code above is a C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error. 
