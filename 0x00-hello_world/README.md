@@ -30,4 +30,6 @@ int main(void)
         return (0);
 } 
 
-The code above is a C program that prints the size of various types on the computer it is compiled and run on.  
+The code above is a C program that prints the size of various types on the computer it is compiled and run on.
+
+gcc -S masm=intel "$CFILE": Generates the assembly code (Intel syntax) of a C code and save it in an output file.  
