@@ -8,16 +8,16 @@
  */
 int main(void)
 {
-	char	c = 'a';
+	int c = 97;
 
-	while (c <= 'z')
+	while (c <= 122)
 	/*Print the alphabet in lowercase*/
 		putchar(c++);
 
 	/* Reassign c to the uppercase string 'A' */
-	c = 'A';
+	c = 65;
 
-	while (c <= 'Z')
+	while (c <= 90)
 	/* Print the alphabet in uppercase */
 		putchar(c++);
 	putchar('\n');
