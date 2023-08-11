@@ -3,3 +3,4 @@ Task 1: A program that checks if the last digit of a randomly generated number i
 Task 2: A program that prints the alphabet in lowercase, followed by a new line.
 Task 3: A program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
 Task 4: A program that prints the alphabet in lowercase except for q and e, followed by a new line.
+Task 4: A program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
