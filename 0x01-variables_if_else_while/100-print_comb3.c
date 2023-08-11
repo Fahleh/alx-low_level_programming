@@ -28,4 +28,3 @@ int main(void)
 
 	return (0);
 }
-Task 10: A program that prints all possible different combinations of two digits separated by a comma and a space.
