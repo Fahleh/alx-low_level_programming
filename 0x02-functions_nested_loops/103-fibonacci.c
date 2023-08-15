@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main:- A program that  prints the sum of the even-valued terms of the
- * Fibonacci sequence whose values do not exceed 4 million.
+ * main - A program that  prints the sum of the even-valued terms
+ * of the fibonacci sequence whose values do not exceed 4 million.
  *
  * Return: Success (0)
 */
