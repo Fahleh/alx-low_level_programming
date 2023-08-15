@@ -30,7 +30,7 @@ int main(void)
 			printf(", %ld", k);
 		}
 		i++;
+	}
 		printf("\n");
 		return (0);
-	}
 }
