@@ -6,3 +6,4 @@ Task 4: A function that checks for alphabetic character.
 Task 5: A function that prints the sign of a number.
 Task 6: A function that computes the absolute value of an integer.
 Task 7: A function that prints the last digit of a number.
+Task 8: A function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
