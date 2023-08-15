@@ -10,3 +10,4 @@ Task 8: A function that prints every minute of the day of Jack Bauer, starting f
 Task 9: A function that prints the 9 times table, starting with 0.
 Task 10: A function that adds two integers and returns the result.
 Task 12: A function that prints the n times table, starting with 0.
+Task 13: A function that sums all natural numbers that are multiples of 3 and 5  between 0 and 1024.
