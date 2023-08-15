@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * print_alphabet:- A program that prints the alphabet, in lowercase,
@@ -13,14 +13,8 @@ void	print_alphabet(void)
 	c = 97;
 	while (c <= 122)
 	{
-		putchar(c);
+		_putchar(c);
 		c++;
 	}
-	putchar('\n');
-}
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
+	_putchar('\n');
 }
