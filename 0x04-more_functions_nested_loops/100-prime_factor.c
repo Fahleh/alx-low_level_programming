@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main:- A program that prints the largest prime factor of the number 612852475143
+ * main:- A program that prints the largest prime factor
+ * of the number 612852475143
  *
  * Description:- A prime factor is a factor is a prime number that
  * can only be divided by 1 and itself.
