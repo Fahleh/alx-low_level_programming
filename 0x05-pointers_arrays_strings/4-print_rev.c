@@ -3,7 +3,8 @@
 /**
  * print_rev:- A functio that prints a string in reverse
  *
- * @s: The string to be printed
+ * @str: The string to be printed.
+ *
  */
 
 
