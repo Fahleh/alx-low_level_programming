@@ -9,3 +9,4 @@ Task 7: A function that encodes a string into 1337.
 Task 8: A function that encodes a string using rot13.
 Task 9: A function that prints an integer.
 Task 10:Complete the function.
+Task 11: A function that adds two numbers.
