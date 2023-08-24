@@ -2,9 +2,9 @@
 
 /**
  * rot13:- A function that encodes a string using rot13
- * 
+ *
  * @s:- String to encode
- * 
+ *
  * Return: The pointer to the encoded string
  */
 
