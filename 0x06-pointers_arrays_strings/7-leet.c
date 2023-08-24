@@ -11,7 +11,7 @@
 char *leet(char *s)
 {
 	int i, j;
-	
+
 	char *decoding = "aAeEoOtTlL";
 	char *encoding = "4433007711";
 
