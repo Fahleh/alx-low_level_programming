@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _isloweir:- A function that capitalizes all words
+ * cap_string:- A function that capitalizes all words
  * of a string.
  *
- * @c:- String to check.
+ * @s:- String to capitalise.
  *
  * Return: The pointer to the string
  */
