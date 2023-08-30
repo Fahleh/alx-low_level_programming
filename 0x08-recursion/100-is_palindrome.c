@@ -2,9 +2,9 @@
 
 /**
  * _strlen_recursion:- Returns the length of a string
- * 
+ *
  * @s: String to check
- * 
+ *
  * Return: Length of the string
  */
 
@@ -16,11 +16,12 @@ int _strlen_recursion(char *s)
 }
 
 /**
- * _palindrome_checker:- A function that checks if a string is a palindrome
- * 
+ * _palindrome_checker:- A function that checks if
+ * a string is a palindrome
+ *
  * @s: string to check
  * @l: length of string
- * 
+ *
  * Return: 1 if string is palindrome, 0 if not
  */
 
@@ -35,9 +36,9 @@ int _palindrome_checker(char *s, int l)
 
 /**
  * is_palindrome:- Checks if a string is a palindrome
- * 
+ *
  * @s: String
- * 
+ *
  * Return: 1 if palindrome, 0 if not
  */
 
