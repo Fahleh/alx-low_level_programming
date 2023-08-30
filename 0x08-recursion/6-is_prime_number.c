@@ -2,7 +2,7 @@
 
 /**
  * prime_helper:- A helper function for is_prime_number
- * 
+ *
  * @n: Number
  * @i: Number
  *
