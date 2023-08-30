@@ -2,7 +2,7 @@
 
 /**
  * _checker:- Checks if two strings are identical.
- * 
+ *
  * @s1: String 1
  * @s2: String 2
  *
