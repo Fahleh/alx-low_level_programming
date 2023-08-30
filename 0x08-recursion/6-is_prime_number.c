@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _prime_helper:- A helper function for is_prime_number
+ * prime_helper:- A helper function for is_prime_number
  * 
  * @n: Number
  * @i: Number
@@ -9,7 +9,7 @@
  * Return: 1 if n is a prime number, otherwise 0
  */
 
-int _prime_helper(int n, int i)
+int prime_helper(int n, int i)
 {
 	if (i == n)
 		return (1);
