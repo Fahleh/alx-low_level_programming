@@ -4,10 +4,10 @@
 /**
  * main:- A program that prints the result of the multiplication,
  * followed by a new line
- * 
+ *
  * @argc: Number of arguments
  * @argv: Array of arguments
- * 
+ *
  * Return: 0
  */
 
