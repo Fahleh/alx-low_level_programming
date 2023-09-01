@@ -3,10 +3,10 @@
 /**
  * main:- A program that prints the number of arguments
  * passed into it
- * 
+ *
  * @argc: Number of arguments
  * @argv: Array of arguments
- * 
+ *
  * Return: 0
  */
 
