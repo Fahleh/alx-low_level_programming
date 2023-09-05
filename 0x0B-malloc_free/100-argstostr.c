@@ -1,9 +1,9 @@
 #include <stdlib.h>
 
 /**
- * argstostr:- A function that concatenates all the arguments 
+ * argstostr:- A function that concatenates all the arguments
  * of your program
- * 
+ *
  * @ac: Number of arguments
  * @av: Array of arguments
  *
