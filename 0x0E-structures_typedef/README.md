@@ -11,3 +11,5 @@ Task 2: A function that prints a struct dog.
 Task 3: Define a new type dog_t as a new name for the type struct dog.
 
 Task 4: A function that creates a new dog.
+
+Task 5: A function that frees dogs.
