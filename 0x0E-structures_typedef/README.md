@@ -1,7 +1,9 @@
-Task 0: efine a new type struct dog with the following elements:
+Task 0: Define a new type struct dog with the following elements:
 
 • name, type = char *
 • age, type = float
 • owner, type = char *
 
-Task 1: function that initialize a variable of type struct dog.
+Task 1: A function that initialize a variable of type struct dog.
+
+Task 2: A function that prints a struct dog.
