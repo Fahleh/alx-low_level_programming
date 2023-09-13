@@ -11,3 +11,5 @@ Task 3: A program that performs simple operations.
 		• Should contain the function that selects the correct function to perform the operation asked by the user.
 	  	  You’re not allowed to declare any other function.
 		• Should contain your main function only.
+
+Task 4: A  program that prints the opcodes of its own main function.
