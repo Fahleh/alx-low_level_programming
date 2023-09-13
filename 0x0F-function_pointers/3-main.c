@@ -13,9 +13,7 @@
 
 int main(int argc, char *argv[])
 {
-	int x, y;
-	int result;
-	int (*op_func)(int, int);
+	int (*opr)(int, int);
 
 	if (argc != 4)
 	{
@@ -23,26 +21,14 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
+	oprt = get_op_func(argv[2]);
 
-	x = atoi(argv[1]);
-	y = atoi(argv[3]);
-
-
-	if ((argv[2][0] == '/' || argv[2][0] == '%') && y == 0)
-	{
-		printf("Error\n");
-		exit(100);
-	}
-
-	op_func = get_op_func(argv[2]);
-	if (op_func == NULL)
+	if (!opr)
 	{
 		printf("Error\n");
 		exit(99);
 	}
 
-	result = op_func(x, y);
-	printf("%d\n", result);
-
+	printf("%d\n", opr(atoi(argv[1]), atoi(argv[3])));
 	return (0);
 }
