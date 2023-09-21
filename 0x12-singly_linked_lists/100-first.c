@@ -5,7 +5,7 @@
  * is executed before main
  */
 
-void myStartupFun(void) __attribute__ ((constructor));
+void launchFn(void) __attribute__ ((constructor));
 
 /**
  * launchFn - launchFn implementation
