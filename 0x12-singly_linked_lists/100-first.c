@@ -1,14 +1,16 @@
 #include<stdio.h>
 
-
-void launchFxn(void) __attribute__ ((constructor));
-
 /**
- * first - Prints a couple of strings  before
- * the main function.
+ * launchFn - Function to be excuted at launch
  */
 
-void launchFxn(void)
+void launchFn(void);
+
+/**
+ * launchFn - Function implementation
+ */
+
+void launchFn(void)
 {
 	printf("You're beat! and yet, you must allow,\n");
 	printf("I bore my house upon my back!\n");
