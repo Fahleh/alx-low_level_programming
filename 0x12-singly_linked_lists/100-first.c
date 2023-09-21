@@ -1,16 +1,15 @@
 #include<stdio.h>
 
 /**
- * launchFn - Function to be excuted at launch
+ * myStartupFun - Apply the constructor attribute to myStartupFun() so that it
+ *   is executed before main()
  */
-
-void launchFn(void);
+void myStartupFun(void) __attribute__ ((constructor));
 
 /**
- * launchFn - Function implementation
+ * myStartupFun - implementation of myStartupFun
  */
-
-void launchFn(void)
+void myStartupFun(void)
 {
 	printf("You're beat! and yet, you must allow,\n");
 	printf("I bore my house upon my back!\n");
