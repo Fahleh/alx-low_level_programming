@@ -4,7 +4,7 @@
  * launchFn - Function to be excuted at launch
  */
 
-void launchFn(void)__attribute__ ((constructor));
+void launchFn(void);
 
 /**
  * launchFn - Function implementation
