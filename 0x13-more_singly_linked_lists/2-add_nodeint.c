@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
- * add_nodeint - A function that adds a node to a
- * singly linked list
+ * add_nodeint - A function that adds a node to the
+ * beginning of a singly linked list
  *
  * @head: Pointer to head
  * @n: Data
