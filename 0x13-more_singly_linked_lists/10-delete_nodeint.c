@@ -10,7 +10,7 @@
  * Return: 1 on success, -1 otherwise.
  */
 
-nt delete_nodeint_at_index(listint_t **h, unsigned int idx)
+int delete_nodeint_at_index(listint_t **h, unsigned int idx)
 {
 	unsigned int i = 0;
 	listint_t *temp = *h;
