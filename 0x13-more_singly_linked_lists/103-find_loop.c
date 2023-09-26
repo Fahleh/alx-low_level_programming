@@ -17,7 +17,7 @@ listint_t *find_listint_loop(listint_t *head)
 	while (hype != NULL)
 	{
 		chill = chill->next;
-		hype = (hype->nex)t->next;
+		hype = (hype->nex)->next;
 
 		if (chill == hype)
 		{
