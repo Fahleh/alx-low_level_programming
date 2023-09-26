@@ -11,7 +11,7 @@
  * Return: Pointer to new node
  */
 
-listint_t *insert_nodeint_at_index(listint_t **h, unsignedd int idx, int n)
+listint_t *insert_nodeint_at_index(listint_t **head, unsignedd int idx, int n)
 {
 	unsigned int i = 0;
 
