@@ -10,7 +10,7 @@
  * Return: 1 if is visited and 0 otherwise
  */
 
-int _calledAgain(const listint_t *node, const listint_t **called, int count)
+int _called(const listint_t *node, const listint_t **called, int count)
 {
 	int i = 0;
 
@@ -43,7 +43,7 @@ size_t free_listint_safe(listint_t **head)
 
 	while (*head)
 	{
-		if (_calledAgain(*head, called, count))
+		if (_called(*head, called, count))
 		{
 			*head = NULL;
 			break;
