@@ -4,14 +4,14 @@
  * insert_nodeint_at_index - A function that inserts a node
  * at a given position
  *
- * @h: Pointer to the head
+ * @head: Pointer to the head
  * @n: Data
  * @idx: Index to insert node
  *
  * Return: Pointer to new node
  */
 
-listint_t *insert_nodeint_at_index(listint_t **head, unsignedd int idx, int n)
+listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
 	unsigned int i = 0;
 
