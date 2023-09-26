@@ -11,27 +11,24 @@
 
 listint_t *find_listint_loop(listint_t *head)
 {
-	listint_t *chill = head;
-	listint_t *hype = head;
+	listint_t *slow = head;
+	listint_t *fast = head;
 
-	while (hype != NULL)
+	while (fast != NULL)
 	{
-		chill = chill->next;
-		hype = (hype->nex)->next;
-
-		if (chill == hype)
+		slow = slow->next;
+		fast = (fast->next)->next;
+		if (slow == fast)
 		{
-			chill = head;
+			slow = head;
 
-			while (chill != hype)
+			while (slow != fast)
 			{
-				chill = chill->next;
-				hype = hype->next;
+				slow = slow->next;
+				fast = fast->next;
 			}
-
-			return (chill);
+			return (slow);
 		}
 	}
-
 	return (NULL);
 }
