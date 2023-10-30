@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		dprintf(STDERR_FILENO, "Usage: cp src dest\n");
+		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		exit(97);
 	}
 
@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 		if (src == -1 || rd == -1)
 		{
 			dprintf(STDERR_FILENO,
-				"Error: Failed to read file %s\n", argv[1]);
+				"Error: Can't read from file %s\n", argv[1]);
 			free(buff);
 			exit(98);
 		}
@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
 		if (dest == -1 || wrt == -1)
 		{
 			dprintf(STDERR_FILENO,
-				"Error: Failed to write to %s\n", argv[2]);
+				"Error: Can't write to %s\n", argv[2]);
 			free(buff);
 			exit(99);
 		}
@@ -95,7 +95,7 @@ void _closefd(int fd)
 
 	if (cls == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Failed to close file %d\n", fd);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
 		exit(100);
 	}
 }
