@@ -45,7 +45,7 @@ int _binary_search(int *array, size_t start, size_t end, int value)
   * @size: Array size.
   * @value: Search value.
   *
-  * Return: Index of the value or -1. 
+  * Return: Index of the value or -1.
   */
 int exponential_search(int *array, size_t size, int value)
 {

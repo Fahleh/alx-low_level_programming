@@ -43,7 +43,8 @@ listint_t *jump_list(listint_t *list, size_t size, int value)
 
 	for (; previous && previous->idx <= list->idx; previous = previous->next)
 	{
-		printf("Value checked at index [%d] = [%d]\n", (int)previous->idx, previous->n);
+		printf("Value checked at index [%d] = [%d]\n",
+				(int)previous->idx, previous->n);
 		if (previous->n == value)
 			return (previous);
 	}

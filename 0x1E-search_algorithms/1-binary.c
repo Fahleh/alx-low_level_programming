@@ -36,7 +36,8 @@ int recursive_search(int *array, size_t size, int value)
 
 	mid_point++;
 
-	return (recursive_search(array + mid_point, size - mid_point, value) + mid_point);
+	return (recursive_search(array + mid_point,
+				 size - mid_point, value) + mid_point);
 }
 
 /**
